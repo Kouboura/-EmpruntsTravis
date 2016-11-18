@@ -6,6 +6,7 @@ Feature: Je veux pouvoir ajouter/supprimer des emprunts
     Given un emprunt "e1" fait par "Joe"     ["@"] pour "Clean Code" de "Martin"
     And   un emprunt "e2" fait par "Jack"    ["@"] pour "The Clean Coder" de "Martin"
     And   un emprunt "e3" fait par "Averell" ["@"] pour "The Pragmatic Programmer" de "Hunt \& Thomas"
+And "e3" = "e1"
 
     When j'ajoute l'emprunt "<e>"
 
