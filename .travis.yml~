@@ -1,10 +1,10 @@
 language: ruby
 rvm:
-	- 2.2.1
+- 2.2.1
 
 notifications:
-	email:
-		recipients:
-		- makouboura@gmail.com
-		on_succes: always
-		on_failure: always
+email:
+recipients:
+- makouboura@gmail.com
+on_succes: always
+on_failure: always
